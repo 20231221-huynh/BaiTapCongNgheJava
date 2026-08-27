@@ -17,17 +17,17 @@
             <div class="form-group">
                 <label for="a">a:</label>
                 <input type="text" id="a" name="a" value="<%= request.getParameter("a") != null ? request.getParameter("a") : ""%>" required>
-            </div>
+            </div> <br>
             <div class="form-group">
                 <label for="b">b:</label>
                 <input type="text" id="b" name="b" value="<%= request.getParameter("b") != null ? request.getParameter("b") : ""%>" required>
-            </div>
+            </div> <br>
             <div class="form-group">
                 <label for="c">c:</label>
                 <input type="text" id="c" name="c" value="<%= request.getParameter("c") != null ? request.getParameter("c") : ""%>" required>
-            </div>
+            </div> <br>
             <input type="submit" value="Giải Phương Trình">
-        </form>
+        </form> <br>
 
         <%
             String strA = request.getParameter("a");
